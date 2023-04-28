@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+        body{
+            background-color: coral;
+            font-family: 'Delicious Handrawn', cursive;
+        }
+        .parent{
+            width:100%;
+        }
+        .son{
+            width:50%;
+            float:left;
+        }
+        .daughter{
+            width:50%;
+            float:right;
+        }
+        img{
+            width:500px;
+            height:auto;
+        }
+        h1{
+            background-color:white;
+            font-size: 40px;
+            text-align: center;
+            word-spacing: 4px;
+        }
+        .son{
+            line-height: 30px;
+            font-size:10px;
+        }
+
+        @media(min-width:320px) and (max-width:480px){
+        h1{
+            background-color: blueviolet;
+            color:beige
+        }
+        .son{
+            width:100%;
+        }
+        .son p{
+            width: 100%;
+            font-size: 20px;
+        }
+        .daughter{
+            width:100%;
+        }
+        .daughter img{
+            width:100%;
+            height:auto;
+        }
+        }
+
+        @media(min-width:481px) and (max-width:768px){
+            h1{
+                background-color: blueviolet;
+                color:beige
+            }
+            .son{
+                width:100%;
+            }
+            .son p{
+                width: 100%;
+                font-size: 20px;
+            }
+            .daughter{
+                width:100%;
+            }
+            .daughter img{
+                width:100%;
+                height:auto;
+            }
+            }
+
+            @media(min-width:769px) and (max-width:1024px){
+                h1{
+                    background-color: aquamarine;
+                    color:beige
+                }
+                .son{
+                    width:100%;
+                }
+                .son p{
+                    width: 100%;
+                    font-size: 20px;
+                }
+                .daughter{
+                    width:100%;
+                }
+                .daughter img{
+                    width:100%;
+                    height:auto;
+                }
+                }
+        
+        

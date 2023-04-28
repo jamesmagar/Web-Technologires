@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.parent{
+    background-color: blue;
+    width: 50%;
+    height: 500px;
+}
+
+.parent .left .right{
+    width:50%;
+    height:500px;
+    float: left;
+
+}
+
+.right img{
+    height: 500px;
+    width: 100%;
+}
